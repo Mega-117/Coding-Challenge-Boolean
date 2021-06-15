@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+.conteiner{
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 100px 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header, nav{
+  text-align: center;.
+}
+
+header > h1{
+  color: #00dd00;
+}
+
+nav{
+  background-color: #00dd00;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+main{
+  color: white;
+}
+
+.logo{
+  height: 100px;
+}
+
+.scooter{
+  margin-top: 30px;
+}
+
+div.scooter > h2{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+div.scooter-detail > span{
+  display: block;
+}
+
+.scooter-position:before{
+  content: "\21A6";
+}
+
+.scooter-position{
+  font-size: 13px;
+}
+
+.battery{
+  height: 20px;
+  border-radius: 5px;
+}
+
+.charge-1{
+  width: 35%;
+  background-color: #f5b453;
+}
+
+.charge-2{
+  width: 70%;
+  background-color: #1ec31e;
+}
+
+.charge-3{
+  width: 20%;
+  background-color: #be4141;
+}
